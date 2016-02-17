@@ -4,7 +4,7 @@
 //
 //  Created by Alex Smith on 2/17/16.
 //  Copyright © 2016 Alex Smith. All rights reserved.
-//  See LICENSE.txt for licensing information
+//  See LICENSE for licensing information
 //
 
 import Foundation
