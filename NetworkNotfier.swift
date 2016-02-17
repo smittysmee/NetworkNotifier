@@ -69,15 +69,15 @@ class NetworkNotifier:NSObject{
         hostReachability.startNotifier()
         reachables.append(hostReachability)
         
-        //        /* Internet Connection */
-        //        let internetReachability:Reachability = Reachability.reachabilityForInternetConnection()
-        //        internetReachability.startNotifier()
-        //        reachables.append(internetReachability)
-        //
-        //        /* Wifi */
-        //        let wifiReachability = Reachability.reachabilityForLocalWiFi()
-        //        wifiReachability.startNotifier()
-        //        reachables.append(wifiReachability)
+//        /* Internet Connection */
+//        let internetReachability:Reachability = Reachability.reachabilityForInternetConnection()
+//        internetReachability.startNotifier()
+//        reachables.append(internetReachability)
+//
+//        /* Wifi */
+//        let wifiReachability = Reachability.reachabilityForLocalWiFi()
+//        wifiReachability.startNotifier()
+//        reachables.append(wifiReachability)
     }
     
     func reachabilityChanged(notification: NSNotification) {
